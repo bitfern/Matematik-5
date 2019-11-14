@@ -17,7 +17,6 @@ while high_number < 1 or high_number <= 0:
 
 while low_number > high_number or low_number <= 0:
     low_number = int(input("k= "))
-    print(low_number)
     if low_number < high_number:
         print("k must be smaller than or equal to n")
 

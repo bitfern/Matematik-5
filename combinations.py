@@ -8,7 +8,7 @@ def combinations(n, k):
 high_number = -1
 low_number = -1
 
-print("C(n,k) = n! / (k*(n - k)!)\n" + "n has to be greater than or equal to k")
+print("C(n,k) = n! / (k! * (n - k)!)\n" + "n has to be greater than or equal to k")
 
 while high_number < 1 or high_number < 0:
     high_number = int(input("n= "))

@@ -9,3 +9,5 @@ def factorial(number):
         for i in range(0, number):
             product = product * (number - i)
     return product
+
+print(factorial(5))

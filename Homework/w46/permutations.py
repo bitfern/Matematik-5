@@ -1,8 +1,23 @@
-from factorial import factorial
+from Homework.w46.factorial import factorial
+
+
+def factorial(number):
+    if number == 0:
+        return 1
+    elif number < 0:
+        print ("ERROR negative number entered")
+        return
+    else:
+        product = 1
+        for i in range(0, number):
+            product = product * (number - i)
+    return product
+
 
 def permutation(n,k):
     P = (factorial(n)) / factorial(n - k)
     return P
+
 
 def perm_initiate():
     high_number = -1

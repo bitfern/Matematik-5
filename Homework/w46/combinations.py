@@ -1,8 +1,10 @@
-from factorial import factorial
+from Homework.w46.factorial import factorial
+
 
 def combinations(n, k):
     C = (factorial(n) / (factorial(k) * factorial(n - k)))
     return C
+
 
 def comb_initiate():
     high_number = -1

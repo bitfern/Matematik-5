@@ -3,7 +3,7 @@ from Homework.w46.factorial import factorial
 
 def combinations(n, k):
     C = (factorial(n) / (factorial(k) * factorial(n - k)))
-    return C
+    return int(C)
 
 
 def comb_initiate():
@@ -24,4 +24,3 @@ def comb_initiate():
 
     print("C(" + str(high_number) + "," + str(low_number) + ") = " + str(combinations(high_number, low_number)))
 
-comb_initiate()

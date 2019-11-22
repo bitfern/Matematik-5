@@ -10,4 +10,13 @@ def factorial(number):
             product = product * (number - i)
     return product
 
-print(factorial(5))
+
+def factorial_backwards(product):
+    tmp_product = 1
+    i = 0
+    while tmp_product<product:
+        i = i + 1
+        tmp_product = i * tmp_product
+
+    return i
+
